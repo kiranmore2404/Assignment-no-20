@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Design</title>
+   
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .hero {
+            background: url('https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?uid=R154829538&ga=GA1.1.1483435555.1718290681&semt=ais_hybrid') no-repeat center center/cover;
+            height: 300px;
+            position: relative;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin: 0;
+            padding: 0 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: calc(33% - 40px);
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .card h3 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+        }
+        .card p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Modern Web Design</h1>
+    </header>
+
+    <div class="hero">
+        
+    </div>
+
+    <div class="container">
+        <div class="cards">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/2400/2400534.png" alt="Design">
+                <h3>Innovative Design</h3>
+                <p>Crafting stunning visuals with cutting-edge design techniques and best practices.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/3887/3887002.png" alt="Development">
+                <h3>Modern Development</h3>
+                <p>Building responsive and efficient websites using the latest web technologies and frameworks.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/11947/11947546.png" alt="Support">
+                <h3>Reliable Support</h3>
+                <p>Providing ongoing support and maintenance to ensure your website performs optimally.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> 2024 Modern Web Design. All rights reserved Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
